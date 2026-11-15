@@ -1,0 +1,68 @@
+{
+  "tickets": [
+    {
+      "id": "T-1001",
+      "subject": "Production API is down for our whole company",
+      "body": "All of our enterprise users are getting 500 errors on /v1/sync since 14:02 UTC. This is urgent and breaking our checkout flow. Please fix ASAP.",
+      "customer_email": "ops@acme-corp.com",
+      "customer_plan": "enterprise",
+      "channel": "email"
+    },
+    {
+      "id": "T-1002",
+      "subject": "I was charged twice this month",
+      "body": "I see two invoices for the Pro plan on my card ending 4242. I want a refund for the duplicate charge. This is frustrating because it happened again.",
+      "customer_email": "jordan.lee@gmail.com",
+      "customer_plan": "pro",
+      "channel": "email"
+    },
+    {
+      "id": "T-1003",
+      "subject": "How do I invite teammates?",
+      "body": "Can you help me understand how to invite my team and set roles? A short guide would be great. Thanks!",
+      "customer_email": "sam@startup.io",
+      "customer_plan": "free",
+      "channel": "in_app"
+    },
+    {
+      "id": "T-1004",
+      "subject": "Slack webhook stopped firing",
+      "body": "Our Slack integration webhook is not working after yesterday's deploy. Events show as delivered but nothing appears in channel. Error in logs mentions timeout.",
+      "customer_email": "dev@northwind.dev",
+      "customer_plan": "pro",
+      "channel": "chat"
+    },
+    {
+      "id": "T-1005",
+      "subject": "Possible unauthorized login on my account",
+      "body": "I got an alert for a login from a new country and someone changed my password. I think my account was hacked. This is a security breach.",
+      "customer_email": "alex.nguyen@outlook.com",
+      "customer_plan": "pro",
+      "channel": "email"
+    },
+    {
+      "id": "T-1006",
+      "subject": "Feature request: CSV export for reports",
+      "body": "Would be nice if we could export analytics reports as CSV. Can you add this to the roadmap?",
+      "customer_email": "product.fan@example.com",
+      "customer_plan": "pro",
+      "channel": "in_app"
+    },
+    {
+      "id": "T-1007",
+      "subject": "Cancel and lawsuit if not refunded",
+      "body": "This service is terrible and unacceptable. Refund now or I will file a lawsuit and cancel immediately.",
+      "customer_email": "angry.customer@mail.com",
+      "customer_plan": "pro",
+      "channel": "email"
+    },
+    {
+      "id": "T-1008",
+      "subject": "SSO login broken for Okta users",
+      "body": "Enterprise Okta SSO cannot log in since this morning. Entire org is blocked from the dashboard.",
+      "customer_email": "it@globex.com",
+      "customer_plan": "enterprise",
+      "channel": "email"
+    }
+  ]
+}
